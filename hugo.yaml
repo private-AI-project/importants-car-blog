@@ -1,0 +1,76 @@
+baseURL: https://car.importants-studio.com/
+languageCode: ko-kr
+defaultContentLanguage: ko
+title: 차곡차곡
+theme: PaperMod
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+pagination:
+  pagerSize: 10
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+params:
+  env: production
+  title: 차곡차곡
+  description: 자동차 유지비를 차곡차곡 아끼는 방법. 자동차검사, 자동차세, 과태료, 보험, 운전 가이드까지 공식 자료 근거로 정리합니다.
+  keywords: [자동차검사, 자동차세, 과태료, 자동차보험, 운전, 초보운전]
+  defaultTheme: auto
+  assets:
+    favicon: /favicon.svg
+    apple_touch_icon: /favicon.svg
+  ShowReadingTime: true
+  ShowBreadCrumbs: true
+  ShowPostNavLinks: true
+  ShowCodeCopyButtons: false
+  ShowToc: true
+  TocOpen: false
+  ShowShareButtons: false
+  disableSpecial1stPost: true
+  hideSummary: false
+
+  homeInfoParams:
+    Title: 차곡차곡
+    Content: 자동차 유지비, 아는 만큼 아낍니다. 검사 기간, 자동차세 할인, 과태료 조회, 보험 갱신까지 놓치기 쉬운 것들을 공식 자료 근거로 차곡차곡 정리합니다.
+
+menu:
+  main:
+    - identifier: posts
+      name: 전체 글
+      url: /posts/
+      weight: 10
+    - identifier: tags
+      name: 태그
+      url: /tags/
+      weight: 20
+    - identifier: search
+      name: 검색
+      url: /search/
+      weight: 30
+    - identifier: about
+      name: 소개
+      url: /about/
+      weight: 40
+    - identifier: privacy
+      name: 개인정보처리방침
+      url: /privacy/
+      weight: 50
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: false
+  highlight:
+    noClasses: false
