@@ -5,6 +5,10 @@ title: 차곡차곡
 theme: PaperMod
 
 enableRobotsTXT: true
+
+services:
+  googleAnalytics:
+    ID: G-F46R9GD13E
 buildDrafts: false
 buildFuture: false
 buildExpired: false
