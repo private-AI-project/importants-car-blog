@@ -10,7 +10,8 @@ layout: "school-zone-fine-calculator"
 sourceUrl: "https://www.easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=684&ccfNo=3&cciNo=1&cnpClsNo=3"
 cover:
   image: "/images/covers/school-zone-fine-calculator.jpg"
-  alt: "스쿨존 과태료 예상 금액 계산기"
+  alt: "책가방을 멘 아이들이 횡단보도를 건너는 모습"
+  caption: "사진: Thang Nguyen / Pexels"
 ---
 
 ## 계산 기준
