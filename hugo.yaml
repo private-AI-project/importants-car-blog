@@ -5,6 +5,7 @@ title: 차곡차곡
 theme: PaperMod
 
 enableRobotsTXT: true
+enableGitInfo: true
 
 services:
   googleAnalytics:
@@ -20,14 +21,22 @@ minify:
   disableXML: true
   minifyOutput: true
 
+outputFormats:
+  LLMS:
+    mediaType: text/plain
+    baseName: llms
+    isPlainText: true
+
 outputs:
   home:
     - HTML
     - RSS
     - JSON
+    - LLMS
 
 params:
   env: production
+  author: Importants Studio
   title: 차곡차곡
   description: 자동차 유지비를 차곡차곡 아끼는 방법. 자동차검사, 자동차세, 과태료, 보험, 운전 가이드까지 공식 자료 근거로 정리합니다.
   keywords: [자동차검사, 자동차세, 과태료, 자동차보험, 운전, 초보운전]
