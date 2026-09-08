@@ -47,8 +47,8 @@ params:
   keywords: [자동차검사, 자동차세, 과태료, 자동차보험, 운전, 초보운전]
   defaultTheme: auto
   assets:
-    favicon: /favicon.svg
-    apple_touch_icon: /favicon.svg
+    favicon: /favicon-32x32.png
+    apple_touch_icon: /apple-touch-icon.png
   ShowReadingTime: true
   ShowBreadCrumbs: true
   ShowPostNavLinks: true
