@@ -1,5 +1,5 @@
 ---
-title: "전기차 충전구역에 세워두면 과태료 10만원, 이제 전기차도 냅니다"
+title: "전기차 충전구역 과태료 10만원, 전기차도 내게 하는 개정안이 나왔습니다"
 date: 2026-09-08T09:00:00+09:00
 draft: false
 slug: "ev-charging-space-blocking-fine"
