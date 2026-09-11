@@ -116,6 +116,7 @@
 
     box.innerHTML = html;
     box.hidden = false;
+    if (window.gtag) gtag("event", "tool_result", { tool_path: location.pathname });
     box.scrollIntoView({ behavior: "smooth", block: "center" });
 
     var url = "https://car.importants-studio.com/tools/school-zone-fine-calculator/";
