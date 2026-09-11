@@ -1,0 +1,27 @@
+    <form id="car-tax-prepay-form" class="calc-form">
+      <div class="calc-field">
+        <label for="cc">배기량 <span>(cc)</span></label>
+        <input type="number" id="cc" name="cc" min="1" max="8000" step="1" placeholder="예: 1999" required>
+        <p class="calc-hint">자동차등록증이나 보험 증권에 적혀 있습니다. 1,998cc처럼 정확한 숫자를 넣으시면 됩니다.</p>
+      </div>
+
+      <div class="calc-field">
+        <label for="age">차령 <span>(년)</span></label>
+        <input type="number" id="age" name="age" min="0" max="40" step="1" placeholder="예: 5" required>
+        <p class="calc-hint">최초 등록일부터 지난 해 수입니다. 3년째부터 매년 5%씩 세금이 줄고 12년째에 50%로 멈춥니다.</p>
+      </div>
+
+      <div class="calc-field">
+        <label for="period">언제 신청하시나요</label>
+        <select id="period" name="period">
+          <option value="sep" selected>9월 (9월 16일~30일, 올해 마지막)</option>
+          <option value="jan">1월 (1월 16일~2월 2일, 할인 가장 큼)</option>
+          <option value="mar">3월 (3월 16일~31일)</option>
+          <option value="jun">6월 (6월 16일~30일)</option>
+        </select>
+      </div>
+
+      <button type="submit" class="calc-submit">할인액 계산하기</button>
+    </form>
+
+    <div id="calc-result" class="calc-result" hidden></div>
