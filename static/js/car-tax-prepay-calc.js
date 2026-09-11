@@ -141,6 +141,7 @@
 
     box.innerHTML = html;
     box.hidden = false;
+    if (window.gtag) gtag("event", "tool_result", { tool_path: location.pathname });
 
     var url = "https://car.importants-studio.com/tools/car-tax-prepay-calculator/";
     var shareText = "자동차세 연납 " + r.picked.label + " 신청하면 " + won(r.picked.discount) +

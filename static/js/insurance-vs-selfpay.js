@@ -198,6 +198,7 @@
 
     box.innerHTML = html;
     box.hidden = false;
+    if (window.gtag) gtag("event", "tool_result", { tool_path: location.pathname });
 
     var url = "https://car.importants-studio.com/tools/insurance-vs-selfpay/";
     var shareText = r.verdict === "under"
