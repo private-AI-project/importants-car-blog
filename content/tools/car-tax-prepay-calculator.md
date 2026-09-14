@@ -20,7 +20,6 @@ faq:
 cover:
   image: "/images/covers/car-tax-prepay-calculator.jpg"
   alt: "자동차 열쇠와 계산기가 놓인 책상"
-  caption: "사진: Jakub Zerdzicki / Pexels"
 ---
 
 ## 계산 기준

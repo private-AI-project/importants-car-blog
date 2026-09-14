@@ -26,7 +26,6 @@ faq:
 cover:
   image: "/images/covers/insurance-vs-selfpay.jpg"
   alt: "사고 난 차량 앞에서 서류를 확인하는 모습"
-  caption: "사진: Huu Huynh / Pexels"
 ---
 
 ## 왜 만들었나
