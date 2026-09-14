@@ -11,7 +11,6 @@ sourceUrl: "https://www.easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=684&ccfNo=3&cciN
 cover:
   image: "/images/covers/school-zone-fine-calculator.jpg"
   alt: "책가방을 멘 아이들이 횡단보도를 건너는 모습"
-  caption: "사진: Thang Nguyen / Pexels"
 ---
 
 ## 계산 기준
