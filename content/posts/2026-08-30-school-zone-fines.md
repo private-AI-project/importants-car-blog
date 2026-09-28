@@ -1,9 +1,9 @@
 ---
-title: "어린이보호구역 과태료: 스쿨존 속도위반 한 번에 최대 16만원, 보험료 할증까지"
+title: "어린이보호구역 과태료 속도위반 7만~16만원"
 date: 2026-08-30T09:00:00+09:00
 draft: false
 slug: "school-zone-fines"
-description: "개학철 어린이보호구역 단속 기준 정리. 오전 8시~오후 8시 속도위반 과태료 7만~16만원, 신호위반 13만원, 주정차 12만원. 시속 20km 넘는 과속은 보험료도 1회 5%, 2회 이상 10% 오른다."
+description: "스쿨존 속도위반 과태료는 7만~16만원입니다. 단속 시간, 신호·주정차 위반 금액과 보험료 할증을 정리했습니다."
 tags: ["어린이보호구역", "스쿨존", "과태료", "속도위반"]
 categories: ["운전"]
 sourceUrl: "https://www.easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=684&ccfNo=3&cciNo=1&cnpClsNo=3"

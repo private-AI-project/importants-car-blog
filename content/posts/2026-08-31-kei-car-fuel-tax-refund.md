@@ -1,9 +1,9 @@
 ---
-title: "경차 유류세 환급: 리터당 250원, 연 30만원까지 돌려주는 경차사랑카드"
+title: "경차 유류세 환급 연 최대 30만원"
 date: 2026-08-31T09:00:00+09:00
 draft: false
 slug: "kei-car-fuel-tax-refund"
-description: "배기량 1,000cc 미만 경차 소유자는 유류구매카드(경차사랑카드)로 주유하면 휘발유·경유 리터당 250원, 연 최대 30만원을 돌려받는다. 1세대 1경차 조건과 신청 방법, 2026년 말 일몰 여부까지 정리했다."
+description: "경차 유류세 환급은 연 최대 30만원입니다. 1,000cc 미만, 1세대 1경차 조건과 카드 신청 방법을 정리했습니다."
 tags: ["경차", "유류세환급", "경차사랑카드", "기름값절약"]
 categories: ["절약"]
 sourceUrl: "https://easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1775&ccfNo=2&cciNo=3&cnpClsNo=1"

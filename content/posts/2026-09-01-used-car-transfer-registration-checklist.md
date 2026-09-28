@@ -1,9 +1,9 @@
 ---
-title: "중고차 이전등록 15일, 취득세 60일: 도장 찍고 나서 할 일 체크리스트"
+title: "중고차 이전등록 15일 기한·벌금"
 date: 2026-09-01T09:00:00+09:00
 draft: false
 slug: "used-car-transfer-registration-checklist"
-description: "중고차는 계약서에 도장 찍는 순간 끝이 아니다. 이전등록 15일, 취득세 60일 기한과 늦었을 때 벌금, 등록원부로 압류·저당을 확인하는 방법까지 구매 후 실제로 해야 할 일을 정리했다."
+description: "중고차 이전등록은 계약 뒤 15일 안에 해야 합니다. 취득세 60일 기한, 지연 벌금과 압류·저당 확인법을 정리했습니다."
 tags: ["중고차", "이전등록", "취득세", "자동차등록원부"]
 categories: ["가이드"]
 sourceUrl: "https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=15000000334"
