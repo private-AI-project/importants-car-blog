@@ -3,7 +3,7 @@ title: "특별교통안전교육 대상, 시간과 미이수 범칙금"
 date: 2026-10-18T09:00:00+09:00
 draft: false
 slug: "special-traffic-safety-education"
-description: "면허 정지·취소 뒤에 받는 특별교통안전교육은 의무교육과 권장교육 모두 3~48시간입니다. 미이수 시 범칙금 10만원, 음주운전 교육 시간과 수강료, 예약처를 정리했습니다."
+description: "면허 정지·취소 뒤에 받는 특별교통안전교육은 의무교육과 권장교육 모두 3~48시간입니다. 미이수 시 범칙금 10만원(음주 재적발자는 15만원), 음주운전 교육 시간과 수강료, 예약처를 정리했습니다."
 tags: ["특별교통안전교육", "운전면허정지", "음주운전교육", "도로교통공단"]
 categories: ["운전"]
 sourceUrl: "https://easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=668&ccfNo=4&cciNo=1&cnpClsNo=4"
