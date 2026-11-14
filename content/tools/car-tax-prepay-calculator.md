@@ -69,5 +69,4 @@ cover:
 
 ## 함께 보면 좋은 글
 
-- [자동차세 연납, 9월 16일부터 3차 신청 시작합니다](/posts/car-tax-annual-prepayment-september/)
 - [폐차 시 자동차세 환급 방법](/posts/car-scrap-tax-refund/)
