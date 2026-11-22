@@ -140,6 +140,40 @@ body.list:has(.dz){background:var(--theme)}
   .dz-post .entry-cover img{max-height:190px}
   .dz-relgrid{grid-template-columns:1fr}
 }
+/* 우리 앱 홍보(dz/app_promo.html) */
+.dz-stick{position:sticky;top:calc(var(--header-height) + 24px);max-height:calc(100vh - var(--header-height) - 40px);overflow:auto;scrollbar-width:none}
+.dz-stick::-webkit-scrollbar{display:none}
+.dz-stick .dz-toc{position:static;max-height:none;overflow:visible}
+.dz-app,.post-content a.dz-app{display:flex;align-items:center;gap:14px;color:var(--primary);text-decoration:none;box-shadow:none;border:0}
+.dz-app img,.post-content .dz-app img{width:60px;height:60px;margin:0;border-radius:22%;flex-shrink:0;box-shadow:none}
+.dz-app-tx{display:flex;flex-direction:column;gap:3px;min-width:0;flex:1;word-break:keep-all;overflow-wrap:anywhere}
+.dz-app-side{word-break:keep-all}
+.dz-app small,.dz-app em{font-size:13px;font-style:normal;font-weight:500;color:var(--secondary);line-height:1.4}
+.dz-app b{font-size:16px;font-weight:600;line-height:1.4;color:var(--primary)}
+.dz-app-btn{flex-shrink:0;padding:9px 15px;border-radius:999px;background:var(--primary);color:var(--theme);font-size:14px;font-weight:600;white-space:nowrap;text-align:center}
+.post-content a.dz-app-in{margin:28px 0 32px;padding:16px;border:1px solid var(--border);border-radius:14px;background:var(--entry)}
+.post-content a.dz-app-in:hover{text-decoration:none;border-color:var(--secondary)}
+.dz-app-side{flex-direction:column;align-items:stretch;gap:10px;margin-top:20px;padding:16px;border:1px solid var(--border);border-radius:14px;background:var(--entry)}
+.dz-app-side .dz-app-hd{display:flex;align-items:center;gap:12px}
+.dz-app-side .dz-app-hd span{display:flex;flex-direction:column;gap:2px;min-width:0}
+.dz-app-side img{width:48px;height:48px}
+.dz-app-side b{font-size:15px}
+.dz-rail>.dz-app-side:first-child{margin-top:22px}
+.dz-app-bar{display:none}
+@media (max-width:900px){
+  .dz-stick{position:static;max-height:none;overflow:visible}
+  .dz-app-side{display:none}
+  .dz-app-bar{display:flex;align-items:center;gap:4px;position:fixed;left:12px;right:12px;bottom:calc(12px + env(safe-area-inset-bottom));z-index:60;padding:10px 6px 10px 12px;border:1px solid var(--border);border-radius:16px;background:var(--theme);box-shadow:0 6px 24px rgba(0,0,0,.14);transform:translateY(calc(100% + 40px));transition:transform .25s ease;visibility:hidden}
+  .dz-app-bar.on{transform:none;visibility:visible}
+  .dz-app-bar .dz-app{flex:1;min-width:0;gap:12px}
+  .dz-app-bar img{width:44px;height:44px}
+  .dz-app-bar b{font-size:14px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .dz-app-bar small{font-size:12px}
+  .dz-app-x{width:32px;height:32px;flex-shrink:0;border:0;background:none;color:var(--secondary);font-size:20px;line-height:1;cursor:pointer}
+  body:has(.dz-app-bar.on) #top-link{bottom:100px}
+}
+@media (max-width:380px){.post-content a.dz-app-in{gap:12px;padding:14px}.post-content .dz-app-in img{width:52px;height:52px}.dz-app-in .dz-app-btn{padding:8px 12px}}
+@media (prefers-reduced-motion:reduce){.dz-app-bar{transition:none}}
 /* ===== A 정리노트: 흰 바탕, 가운데 검색, 주제 타일 ===== */
 :root{--theme:#fff}
 .dz-A.dz-home .dz-hero{padding:56px 0 34px;text-align:center}
